@@ -63,6 +63,7 @@ export default function RootLayout({
             </a>
           </div>
         </nav>
+        <div>SOCIAL MEDIA TODO ikonki xd</div>
         <footer className="w-full mt-15 h-12 flex items-center justify-center border-t">
           Copyright © 2026 Mateusz Lisowski. Wszelkie prawa zastrzeżone.
         </footer>
