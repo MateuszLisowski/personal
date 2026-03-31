@@ -30,6 +30,13 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(m,o,n,t,e,r,_){m['__GetResponseAnalyticsObject']=e;m[e]=m[e]||function(){(m[e].q=m[e].q||[]).push(arguments)};r=o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async=1;r.src=t;r.setAttribute('crossorigin','use-credentials');_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://an.gr-wcon.com/script/1255ad3d-46d3-4d82-8d63-34387f4a8b30/ga.js','GrTracking');`,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         {children}
         <nav className={styles.nav}>
