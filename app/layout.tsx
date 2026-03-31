@@ -115,7 +115,10 @@ export default function RootLayout({
             </svg>
           </a>
         </div>
-        <Newsletter />
+        <getresponse-form
+          form-id="dd268582-eedb-4b37-affb-517230ecf0d4"
+          e="0"
+        ></getresponse-form>
         <footer className="w-full mt-15 h-12 flex items-center justify-center border-t">
           Copyright © 2026 Mateusz Lisowski. Wszelkie prawa zastrzeżone.
         </footer>
