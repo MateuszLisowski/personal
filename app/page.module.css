@@ -17,6 +17,40 @@
   transition: color 0.2s ease-in-out;
 }
 
+.socialLinks {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.socialLinks a {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background);
+  border-radius: 50%;
+  border: 2px solid var(--orange);
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.socialLinks a:hover {
+  transform: scale(1.2);
+}
+
+.socialLinks svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--orange);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
