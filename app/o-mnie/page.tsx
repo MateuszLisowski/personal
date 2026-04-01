@@ -1,5 +1,3 @@
-import Newsletter from "../newsletter";
-
 export default function About() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-20 mt-40 font-sans text-gray-800">
@@ -115,7 +113,6 @@ export default function About() {
           <li>Szkoła Psychoterapii Dialog – szkolenia psychoterapeutyczne</li>
         </ul>
       </section>
-      <Newsletter />
     </main>
   );
 }
