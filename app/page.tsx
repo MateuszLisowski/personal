@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Newsletter from "../newsletter";
+import Newsletter from "./newsletter";
 import styles from "./page.module.css";
 
 export default function Home() {
