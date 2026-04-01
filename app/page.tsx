@@ -59,7 +59,7 @@ export default function Home() {
               pomocne lub nie jestem w stanie Ci pomóc. Najważniejsze jest dla
               mnie Twoje dobro.
             </h2>
-            <a href="/about" className={styles.button}>
+            <a href="/o-mnie" className={styles.button}>
               Poznaj moją historię
             </a>
           </div>

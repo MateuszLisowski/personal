@@ -1,0 +1,33 @@
+import { posts } from "../posts";
+import { notFound } from "next/navigation";
+import Newsletter from "../../newsletter";
+
+export function generateStaticParams() {
+  return posts.map((post) => ({ slug: post.slug }));
+}
+
+export const dynamicParams = false;
+export const dynamic = "force-static";
+
+export default function PostPage({ params }: { params: { slug: string } }) {
+  const post = posts.find((p) => p.slug === params.slug);
+
+  if (!post) return notFound();
+
+  return (
+    <main className="flex justify-center px-6 py-20">
+      <article className="max-w-2xl w-full">
+        <h1 className="text-4xl font-bold mb-6">{post.title}</h1>
+
+        <div
+          className="prose prose-lg max-w-none
+          prose-p:mb-4
+          prose-img:rounded-xl
+          prose-img:my-6"
+          dangerouslySetInnerHTML={{ __html: post.content }}
+        />
+      </article>
+      <Newsletter />
+    </main>
+  );
+}
