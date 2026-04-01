@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     "Mateusz Lisowski - Psychoterapeuta, Psycholog, Frontend Developer, Wolontariusz",
   description:
     "Strona wizytówka psychoterapeuty Mateusza Lisowskiego. Oferuję konsultacje indywidualne i warsztaty rozwojowe online. Zapraszam do kontaktu!",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({

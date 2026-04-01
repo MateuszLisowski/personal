@@ -9,13 +9,18 @@ export function generateStaticParams() {
 export const dynamicParams = false;
 export const dynamic = "force-static";
 
-export default function PostPage({ params }: { params: { slug: string } }) {
-  const post = posts.find((p) => p.slug === params.slug);
+type PostPageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+export default async function PostPage({ params }: PostPageProps) {
+  const { slug } = await params;
+  const post = posts.find((p) => p.slug === slug);
 
   if (!post) return notFound();
 
   return (
-    <main className="flex justify-center px-6 py-20">
+    <main className="flex justify-center px-6 py-20 mt-40">
       <article className="max-w-2xl w-full">
         <h1 className="text-4xl font-bold mb-6">{post.title}</h1>
 
