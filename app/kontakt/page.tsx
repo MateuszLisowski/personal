@@ -22,7 +22,7 @@ export default function Contact() {
 
         <div className="flex justify-center pt-4">
           <a
-            href="https://calendly.com/mateusz-lisowski/30min"
+            href="https://calendly.com/mlmateuszlisowski/darmowa-30-minutowa-konsultacja"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.button}
