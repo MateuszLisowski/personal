@@ -11,10 +11,11 @@ export default function Blog() {
       <div className="grid gap-8 w-full max-w-6xl sm:grid-cols-2 lg:grid-cols-3">
         {true ? (
           <div className="col-span-full px-10 py-12 text-center text-2xl font-semibold">
-            <span className="inline-flex items-center justify-center rounded-full px-4 py-2 text-3xl font-size-4xl">
+            <span
+              className={`inline-flex items-center justify-center rounded-full px-8 py-6 ${styles.hugeIcon}`}
+            >
               🚧
             </span>
-            <div className="mt-4">W budowie</div>
           </div>
         ) : (
           posts.map((post) => (
