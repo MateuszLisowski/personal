@@ -203,8 +203,23 @@
     display: block;
   }
 
-  .menuToggle:checked + .hamburger + div:last-child {
+  .menuToggle:checked + .hamburger + .overlay + div:last-child {
     display: flex;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 199;
+  }
+
+  .menuToggle:checked + .hamburger + .overlay {
+    display: block;
   }
 
   .textContent {

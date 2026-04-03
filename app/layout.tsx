@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "./page.module.css";
 import "./globals.css";
-import Link from "next/link";
 import Script from "next/script";
+import Navigation from "./Navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,38 +47,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         {children}
 
-        <nav className={styles.nav}>
-          <Link href="/" className={styles.brand}>
-            Mateusz Lisowski
-          </Link>
-
-          <input
-            type="checkbox"
-            id="menu-toggle"
-            className={styles.menuToggle}
-          />
-          <label htmlFor="menu-toggle" className={styles.hamburger}>
-            ☰
-          </label>
-
-          <div>
-            <label htmlFor="menu-toggle" className={styles.closeBtn}>
-              ✕
-            </label>
-            <Link href="/o-mnie" className={styles.link}>
-              O mnie
-            </Link>
-            <Link href="/oferta" className={styles.link}>
-              Oferta
-            </Link>
-            <Link href="/blog" className={styles.link}>
-              Blog
-            </Link>
-            <Link href="/kontakt" className={styles.link}>
-              Kontakt
-            </Link>
-          </div>
-        </nav>
+        <Navigation />
 
         <div className={styles.socialLinks}>
           <a
@@ -125,7 +94,7 @@ export default function RootLayout({
           </a>
         </div>
 
-        <footer className="w-full mt-5 h-12 flex items-center justify-center border-t">
+        <footer className="w-full pt-5 mb-5 flex items-center justify-center border-t px-10">
           Copyright © 2026 Mateusz Lisowski. Wszelkie prawa zastrzeżone.
         </footer>
       </body>

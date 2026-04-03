@@ -19,12 +19,40 @@ export default function Offer() {
           chcą rozwijać samoświadomość i umiejętności radzenia sobie ze stresem
         </li>
       </ul>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
-        {/* KAFEL 1 */}
         <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-200 flex flex-col">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-            Konsultacje indywidualne
+            Darmowa konsultacja indywidualna
+          </h2>
+
+          <p className="text-gray-700 mb-4">
+            Spotkanie zapoznawcze, podczas którego możemy porozmawiać o Twojej
+            sytuacji, potrzebach i oczekiwaniach. To okazja, aby sprawdzić, czy
+            nasza współpraca będzie dla Ciebie pomocna i komfortowa. Konsultacja
+            trwa 30 minut i jest bezpłatna.
+          </p>
+
+          <p className="text-gray-700">
+            <strong>Czas trwania:</strong> 30 minut
+          </p>
+
+          <p className="text-gray-700">
+            <strong>Miejsce:</strong> Online (google meet)
+          </p>
+
+          <div className="flex justify-center mt-auto">
+            <a
+              href="https://calendly.com/mlmateuszlisowski/darmowa-30-minutowa-konsultacja"
+              className={styles.button}
+            >
+              Umów się
+            </a>
+          </div>
+        </div>
+
+        <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-200 flex flex-col">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+            Konsultacja indywidualna
           </h2>
 
           <p className="text-gray-700 mb-4">
@@ -33,38 +61,24 @@ export default function Offer() {
             indywidualne cele rozwojowe.
           </p>
 
-          <p className="text-gray-700 mb-6">
+          <p className="text-gray-700">
             <strong>Czas trwania:</strong> 50 minut
           </p>
 
+          <p className="text-gray-700">
+            <strong>Miejsce:</strong> Online (google meet)
+          </p>
+
           <div className="flex justify-center mt-auto">
-            <a href="#kontakt" className={styles.button}>
+            <a
+              href="https://calendly.com/mlmateuszlisowski/darmowa-30-minutowa-konsultacja"
+              className={styles.button}
+            >
               Umów się
             </a>
           </div>
         </div>
 
-        {/* KAFEL 2 */}
-        <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-200 flex flex-col">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-            Warsztaty rozwojowe
-          </h2>
-
-          <p className="text-gray-700 mb-6">
-            Interaktywne spotkania grupowe, w których uczestnicy ćwiczą
-            uważność, komunikację i radzenie sobie z emocjami poprzez praktyczne
-            ćwiczenia. Warsztaty są okazją do poznania nowych perspektyw i
-            wzmocnienia kompetencji interpersonalnych.
-          </p>
-
-          <div className="flex justify-center mt-auto">
-            <a href="#kontakt" className={styles.button}>
-              Kontakt
-            </a>
-          </div>
-        </div>
-
-        {/* KAFEL 3 - SZERSZY */}
         <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-200 flex flex-col md:col-span-2">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">
             Program autorski: Wyrażanie emocji przez muzykę
@@ -90,7 +104,26 @@ export default function Offer() {
           </ul>
 
           <div className="flex justify-center mt-auto">
-            <a href="#kontakt" className={styles.button}>
+            <a href="/kontakt" className={styles.button}>
+              Kontakt
+            </a>
+          </div>
+        </div>
+
+        <div className="p-6 bg-white rounded-2xl shadow-md border border-gray-200 flex flex-col">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+            Warsztaty rozwojowe
+          </h2>
+
+          <p className="text-gray-700 mb-6">
+            Interaktywne spotkania grupowe, w których uczestnicy ćwiczą
+            uważność, komunikację i radzenie sobie z emocjami poprzez praktyczne
+            ćwiczenia. Warsztaty są okazją do poznania nowych perspektyw i
+            wzmocnienia kompetencji interpersonalnych.
+          </p>
+
+          <div className="flex justify-center mt-auto">
+            <a href="/kontakt" className={styles.button}>
               Kontakt
             </a>
           </div>

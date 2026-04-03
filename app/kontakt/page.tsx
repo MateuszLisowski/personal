@@ -8,13 +8,14 @@ export default function Contact() {
           Kontakt
         </h1>
 
-        <p className="text-gray-700 text-center leading-relaxed">
+        <p className="text-gray-700 leading-relaxed">
           Oferuję spotkania online. Jeśli chcesz się umówić, możesz skontaktować
-          się ze mną telefonicznie, mailowo lub skorzystać z kalendarza.
-          Pierwsza konsultacja (30 minut) jest bezpłatna.
+          się ze mną telefonicznie (proszę o zostawienie wiadomości, oddzwonię),
+          mailowo lub skorzystać z kalendarza. Pierwsza konsultacja (30 minut)
+          jest bezpłatna.
         </p>
 
-        <div className="flex flex-col gap-3 text-gray-800 text-lg text-center">
+        <div className="flex flex-col gap-3 text-gray-800 text-lg">
           <span>📞 605 104 075</span>
           <span>✉️ mlmateuszlisowski@gmail.com</span>
           <span>📍 Białystok</span>
@@ -22,7 +23,7 @@ export default function Contact() {
 
         <div className="flex justify-center pt-4">
           <a
-            href="https://calendly.com/mlmateuszlisowski/darmowa-30-minutowa-konsultacja"
+            href="https://calendar.app.google/339E18Tf4Ngw5DvK8"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.button}
