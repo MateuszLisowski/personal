@@ -40,11 +40,11 @@ export default function About() {
           W swojej pracy stawiam na autentyczny kontakt. Ważne jest dla mnie,
           żebyś mógł poczuć się zauważony i przyjęty bez oceniania. Jednocześnie
           nie unikam mówienia wprost tego, co widzę, jeśli może to pomóc lepiej
-          zrozumieć siebie i swoją sytuację. Każde spotkanie jest inne – nie
+          zrozumieć siebie i swoją sytuację. Każde spotkanie jest inne - nie
           pracuję według gotowego schematu.
         </p>
         <p>
-          Mam doświadczenie w pracy z ludźmi w różnych kontekstach – od
+          Mam doświadczenie w pracy z ludźmi w różnych kontekstach - od
           mentoringu i prowadzenia zespołów w środowisku technologicznym, przez
           organizowanie programów stażowych, po działalność wolontariacką, w tym
           pracę na telefonie zaufania i zaangażowanie w projekty nonprofit.
