@@ -46,19 +46,18 @@ export default function Home() {
               >
                 kanał na YouTube
               </a>{" "}
-              z muzyką ambient. Ta praktyka pozwala mi lepiej dostrzegać niuanse
-              w emocjach i wspierać innych w rozwijaniu własnej ekspresji.
+              z muzyką ambient.
             </h2>
             <h2 className={styles.text}>
               We współpracy skupiam się na rozwiązywaniu problemów i szukaniu
-              konkretnych rozwiązań. Ważna jest dla mnie uczciwość i wnoszenie
-              realnej wartości, czyli bycie szczerym w tym, co widzę i czuję w
-              naszej pracy, oraz skupienie na tym, co faktycznie pomaga Ci
-              lepiej rozumieć siebie i radzić sobie z tym, co dla Ciebie trudne.
-              To także transparentność w procesie i w moich kompetencjach oraz
-              brak trzymania na siłę, jeśli czuję, że to nie jest dla Ciebie
-              pomocne lub nie jestem w stanie Ci pomóc. Najważniejsze jest dla
-              mnie Twoje dobro.
+              konkretnych rozwiązań. Ważna jest dla mnie uczciwość, bycie
+              szczerym w tym, co widzę i czuję oraz skupienie na tym, co
+              faktycznie może pomóc Ci osiągnąć zmianę w Twoim życiu. To także
+              transparentność w procesie i w moich kompetencjach oraz brak
+              trzymania na siłę, jeśli czuję, że to nie jest dla Ciebie pomocne
+              lub nie jestem w stanie Ci pomóc. Najważniejsze jest dla mnie
+              Twoje dobro. Dlatego oferuję bezpłatną, 30-minutową konsultację,
+              żebyś mógł sprawdzić, czy to dla Ciebie.
             </h2>
             <a href="/o-mnie" className={styles.button}>
               Poznaj moją historię
