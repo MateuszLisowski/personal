@@ -21,8 +21,8 @@ export default async function PostPage({ params }: PostPageProps) {
 
   return (
     <main className="flex justify-center px-6 py-20 mt-40">
-      <article className="max-w-2xl w-full">
-        <h1 className="text-4xl font-bold mb-6">{post.title}</h1>
+      <article className="max-w-2xl w-full text-lg">
+        <h1 className="text-2xl font-bold mb-6">{post.title}</h1>
 
         <div
           className="prose prose-lg max-w-none

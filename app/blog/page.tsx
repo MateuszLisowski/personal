@@ -1,5 +1,6 @@
 import Newsletter from "../newsletter";
 import Link from "next/link";
+import Image from "next/image";
 import { posts } from "./posts";
 import styles from "../page.module.css";
 
@@ -9,7 +10,7 @@ export default function Blog() {
       <h1 className="text-4xl font-bold mb-12">Blog</h1>
 
       <div className="grid gap-8 w-full max-w-6xl sm:grid-cols-2 lg:grid-cols-3">
-        {true ? (
+        {false ? (
           <div className="col-span-full px-10 py-12 text-center text-2xl font-semibold">
             <span
               className={`inline-flex items-center justify-center rounded-full px-8 py-6 ${styles.hugeIcon}`}
@@ -24,9 +25,11 @@ export default function Blog() {
               className="bg-white rounded-2xl shadow-md border border-gray-200 p-6 flex flex-col"
             >
               <h2 className="text-xl font-semibold mb-3">{post.title}</h2>
-              <img
-                src="https://picsum.photos/800/402"
-                alt="test"
+              <Image
+                src={post.img}
+                alt="zdjecie do artykułu"
+                width={400}
+                height={250}
                 className="mb-5 mt-10"
               />
               <p className="text-gray-600 mb-4 flex-grow">{post.excerpt}</p>
