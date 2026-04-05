@@ -51,7 +51,7 @@ export default function RootLayout({
 
         <div className={styles.socialLinks}>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/mlmateuszlisowski"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -72,7 +72,7 @@ export default function RootLayout({
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/mateuszlisowski"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -83,7 +83,7 @@ export default function RootLayout({
           </a>
 
           <a
-            href="https://tiktok.com"
+            href="https://www.tiktok.com/@mlmateuszlisowski"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok"
