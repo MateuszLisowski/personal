@@ -20,7 +20,7 @@ export default async function PostPage({ params }: PostPageProps) {
   if (!post) return notFound();
 
   return (
-    <main className="flex justify-center px-6 py-20 mt-40">
+    <main className="flex justify-center px-6 py-20 mt-40 flex-col align-center justify-content gap-12">
       <article className="max-w-2xl w-full text-lg">
         <h1 className="text-2xl font-bold mb-6">{post.title}</h1>
 
