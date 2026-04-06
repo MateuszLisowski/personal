@@ -19,7 +19,7 @@ export const posts = [
     slug: "zycie-po-terapii",
     title: "Jak wygląda życie po terapii?",
     excerpt:
-      "Nie chodzi o to, że wszystko staje się łatwe. Raczej o to, że zaczynasz mieć wybór.",
+      "Jest to często zadawane pytanie na, które chciałbym odpowiedzieć.",
     date: "2026-04-06",
     img: "/blog/zycie-po-terapii.jpeg",
     content: `
