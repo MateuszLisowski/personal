@@ -21,23 +21,18 @@ export default function Home() {
           />
           <div className={styles.textContent}>
             <h1 className={styles.heading}>
-              Psychoterapeuta w szkoleniu Gestalt · Student psychologii ·
-              Frontend Developer · Wolontariusz
+              Psychoterapia Gestalt · Psychologia
             </h1>
             <h2 className={styles.text}>Cześć, jestem Mateusz 🦊</h2>
             <h2 className={styles.text}>
-              Jestem psychoterapeutą w trakcie szkolenia Gestalt, studentem
-              psychologii i frontend developerem. Prowadziłem staże dla
-              praktykantów i zespoły programistyczne, działam jako wolontariusz
-              telefonu zaufania i angażuję się w projekty nonprofit. Łączę
+              Jestem psychoterapeutą w trakcie szkolenia w nurcie Gestalt. Łączę
               psychologię, technologię i kreatywność, aby wspierać rozwój
-              osobisty, rozwiązywanie problemów i odkrywanie potencjału moich
-              klientów. Najważniejsza jest dla mnie autentyczna relacja, w
-              której możesz poczuć się zauważony i przyjęty takim, jakim jesteś.
+              osobisty, pomagać w rozwiązywaniu trudności i odkrywaniu
+              potencjału moich klientów. Pracuję również jako frontend
+              developer, tworząc aplikacje biznesowe.
             </h2>
             <h2 className={styles.text}>
-              Równocześnie rozwijam swoją kreatywną stronę. Tworzę muzykę,
-              improwizuję, śpiewam i zajmuję się produkcją, prowadząc{" "}
+              Prowadzę również{" "}
               <a
                 href="https://www.youtube.com/@EndlessAmbient4Life"
                 target="_blank"
@@ -49,18 +44,24 @@ export default function Home() {
               z muzyką ambient.
             </h2>
             <h2 className={styles.text}>
-              We współpracy skupiam się na rozwiązywaniu problemów i szukaniu
-              konkretnych rozwiązań. Ważna jest dla mnie uczciwość, bycie
-              szczerym w tym, co widzę i czuję oraz skupienie na tym, co
-              faktycznie może pomóc Ci osiągnąć zmianę w Twoim życiu. To także
-              transparentność w procesie i w moich kompetencjach oraz brak
-              trzymania na siłę, jeśli czuję, że to nie jest dla Ciebie pomocne
-              lub nie jestem w stanie Ci pomóc. Najważniejsze jest dla mnie
-              Twoje dobro. Dlatego oferuję bezpłatną, 30-minutową konsultację,
-              żebyś mógł sprawdzić, czy to dla Ciebie.
+              Najważniejsza jest dla mnie autentyczna relacja, w której możesz
+              poczuć się zauważony i przyjęty takim, jakim jesteś. We współpracy
+              skupiam się na szukaniu konkretnych rozwiązań. Ważna jest dla mnie
+              uczciwość, szczerość oraz skupienie na tym, co faktycznie może
+              pomóc Ci osiągnąć zmianę w Twoim życiu. Dbam o transparentność w
+              procesie i w moich kompetencjach oraz o to, żeby nie kontynuować
+              pracy na siłę, jeśli czuję, że jest dla Ciebie niekorzystna lub
+              nie jestem w stanie Ci pomóc.
             </h2>
-            <a href="/o-mnie" className={styles.button}>
-              Poznaj moją historię
+            <h2 className={styles.text}>
+              Dlatego oferuję bezpłatną, 30-minutową konsultację, żebyś mógł
+              sprawdzić, czy jestem odpowiedni dla Ciebie.
+            </h2>
+            <a
+              href="https://calendly.com/mlmateuszlisowski/darmowa-30-minutowa-konsultacja"
+              className={styles.button}
+            >
+              Darmowa konsultacja
             </a>
           </div>
         </section>

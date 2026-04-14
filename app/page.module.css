@@ -132,6 +132,7 @@
   word-break: break-word;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--foreground);
+  width: 100%;
 }
 
 .text {
