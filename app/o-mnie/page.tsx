@@ -106,31 +106,42 @@ export default function About() {
         <h2 className="text-2xl font-semibold mb-6">Doświadczenie</h2>
         <ul className="space-y-3 list-disc pl-5">
           <li>
-            Stowarzyszenie Mudita, wolontariusz telefonu zaufania, 04.2026 –
+            Mateusz Lisowski Psychoterapia – rozwój praktyki psychologicznej i
+            psychoterapeutycznej, 01.2026 – obecnie
+          </li>
+          <li>
+            Stowarzyszenie Mudita – wolontariusz telefonu zaufania, 04.2026 –
             obecnie
           </li>
-          <li>NeuroN Foundation, wolontariusz, 03.2026 – obecnie</li>
-          <li>Generacja Innowacja, wolontariusz, 03.2026 – obecnie</li>
-          <li>Mateusz Lisowski Psychoterapia, 01.2026 – obecnie</li>
-          <li>Fundacja Neuroróżnorodni, wolontariusz, 11.2025 – obecnie</li>
           <li>
-            GN Group, Frontend Developer / Scrum Master, 01.2023 – 12.2025
+            Fundacja Neuroróżnorodni – prowadzenie grup rozwojowych dla osób
+            neuroróżnorodnych, 11.2025 – obecnie
+          </li>
+          <li>Generacja Innowacja – mentor, 03.2026 – obecnie</li>
+          <li>
+            NeuroN Foundation – wolontariat w zespole Mental Team, 03.2026 –
+            07.2026
           </li>
           <li>
-            Billennium, Frontend Developer / Senior Frontend Developer, 08.2018
+            GN Group – Frontend Developer / Scrum Master, 01.2023 – 12.2025
+          </li>
+          <li>
+            Billennium – Senior Frontend Developer / Frontend Developer, 11.2019
             – 01.2023
           </li>
-          <li>Netguru, Frontend Developer, 08.2018 – 10.2019</li>
-          <li>BitCraft sp. z o.o., Frontend Developer, 02.2018 – 08.2018</li>
+          <li>Netguru – Frontend Developer, 08.2018 – 10.2019</li>
+          <li>BitCraft sp. z o.o. – Frontend Developer, 02.2018 – 08.2018</li>
           <li>
-            Praktyki studenckie, Stowarzyszenie „Droga”, 09.2016 – 11.2016
+            Stowarzyszenie „Droga” – Praca socjalna (praktykant), 09.2016 –
+            11.2016
           </li>
           <li>
-            Prowadzenie warsztatów edukacyjnych, Klub Jagielloński, 02.2016 –
+            Klub Jagielloński – Prowadzący warsztaty edukacyjne, 02.2016 –
             06.2016
           </li>
           <li>
-            Pogotowie Lekcyjne - nauka i wsparcie dzieci, 10.2014 – 01.2015
+            Pogotowie Lekcyjne – Wolontariusz / tutor edukacyjny, 10.2014 –
+            01.2015
           </li>
         </ul>
       </section>
