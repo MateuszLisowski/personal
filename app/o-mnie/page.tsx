@@ -110,6 +110,10 @@ export default function About() {
             psychoterapeutycznej, 01.2026 – obecnie
           </li>
           <li>
+            Emotely – Psychoterapeuta w trakcie szkolenia (staż
+            psychoterapeutyczny), 07.2026 – obecnie
+          </li>
+          <li>
             Stowarzyszenie Mudita – wolontariusz telefonu zaufania, 04.2026 –
             obecnie
           </li>
